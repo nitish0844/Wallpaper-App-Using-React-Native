@@ -119,7 +119,7 @@ export default class App extends React.Component {
   shareWallpaper = async (image) => {
     try {
       await Share.share({
-        message: "Checkout this wallpaper" + image.urls.full,
+        message: "Checkout this wallpaper " + image.urls.full,
       });
     } catch (error) {
       console.log(error);

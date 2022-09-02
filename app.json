@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "wallpaper",
+    "name": "wallpaper App",
     "slug": "wallpaper",
     "version": "0.0.1",
     "orientation": "portrait",
@@ -14,7 +14,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -22,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.nitish0844.wallpaper"
     },
     "web": {
       "favicon": "./assets/favicon.png"
